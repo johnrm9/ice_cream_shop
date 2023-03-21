@@ -1,0 +1,28 @@
+name: ice_cream_shop
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.19.4 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  google_nav_bar: ^5.0.6
+  provider: ^6.0.5
+  smooth_page_indicator: ^1.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lint: ^2.0.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
